@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: c9149811cb2784805b3c66d13d45002b
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Hiragino Kaku Gothic Std
+  fontNames:
+  - Hiragino Kaku Gothic Std
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: b179abe0d480247aa9848511ff645e80, type: 3}
+  - {fileID: 12800000, guid: 8aa1bea1f1a9b43c3b30e88737b3e864, type: 3}
+  - {fileID: 12800000, guid: b5566f1c9645445058742f335571236f, type: 3}
+  - {fileID: 12800000, guid: c866cacc91f564517b59b8db3a8c4136, type: 3}
+  - {fileID: 12800000, guid: 0c05a7bd4442145958b73fdd89921bd1, type: 3}
+  - {fileID: 12800000, guid: c3a4edbed2c5349eca8380e3104d084a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

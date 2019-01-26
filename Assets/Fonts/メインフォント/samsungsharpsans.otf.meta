@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 3a6ce60229ac34f16953b00269ae0886
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Samsung Sharp Sans
+  fontNames:
+  - Samsung Sharp Sans
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 300fa36d854e744a5bfd3af8af246b66, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

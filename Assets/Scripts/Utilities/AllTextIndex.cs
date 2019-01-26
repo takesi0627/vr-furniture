@@ -1,0 +1,80 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public enum TextIndex
+{
+    // UI Text
+    UI_Name_Limit,
+    UI_Name_Empty,
+    UI_Press_Enter_Hint,
+    UI_Start_Quiz,
+    UI_Network_Unreachable,
+    UI_Network_Unreachable_Description,
+    UI_Network_Unreachable_Button_Text,
+    UI_General_Second, // 秒
+
+    // Language Selector 
+    /* Should syncronize with enumeration Language */
+    UI_Language_Begin = 500,
+    UI_Language_JP = UI_Language_Begin,
+    UI_Language_CN,
+    UI_Language_EN,
+    UI_Language_KR,
+    UI_Language_End,
+
+    // Quiz Text
+    Quiz_Begin = 1000,
+    Quiz_1 = Quiz_Begin,
+    Quiz_2,
+    Quiz_3,
+    Quiz_End,
+
+    VideoQuiz_Begin = Quiz_End,
+    VideoQuiz_1 = VideoQuiz_Begin,
+    VideoQuiz_1_Option_1,
+    VideoQuiz_1_Option_2,
+    VideoQuiz_1_Option_3,
+    VideoQuiz_1_Option_4,
+    VideoQuiz_2,
+    VideoQuiz_2_Option_1,
+    VideoQuiz_2_Option_2,
+    VideoQuiz_2_Option_3,
+    VideoQuiz_2_Option_4,
+    VideoQuiz_3,
+    VideoQuiz_3_Option_1,
+    VideoQuiz_3_Option_2,
+    VideoQuiz_3_Option_3,
+    VideoQuiz_3_Option_4, 
+    VideoQuiz_4,
+    VideoQuiz_4_Option_1,
+    VideoQuiz_4_Option_2,
+    VideoQuiz_4_Option_3,
+    VideoQuiz_4_Option_4,
+    VideoQuiz_5,
+    VideoQuiz_5_Option_1,
+    VideoQuiz_5_Option_2,
+    VideoQuiz_5_Option_3,
+    VideoQuiz_5_Option_4,
+    VideoQuiz_6,
+    VideoQuiz_6_Option_1,
+    VideoQuiz_6_Option_2,
+    VideoQuiz_6_Option_3,
+    VideoQuiz_6_Option_4,
+    VideoQuiz_7,
+    VideoQuiz_7_Option_1,
+    VideoQuiz_7_Option_2,
+    VideoQuiz_7_Option_3,
+    VideoQuiz_7_Option_4,
+    VideoQuiz_8,
+    VideoQuiz_8_Option_1,
+    VideoQuiz_8_Option_2,
+    VideoQuiz_8_Option_3,
+    VideoQuiz_8_Option_4,
+    VideoQuiz_9,
+    VideoQuiz_9_Option_1,
+    VideoQuiz_9_Option_2,
+    VideoQuiz_9_Option_3,
+    VideoQuiz_9_Option_4,
+    VideoQuiz_End,
+}
