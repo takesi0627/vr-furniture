@@ -7,7 +7,7 @@ using hekira.Utilities;
 
 namespace hekira
 {
-    public class LaserPointer : MonoBehaviour
+    public class LaserPointer : OVRCursor
     {
         static LaserPointer _instance;
         public static LaserPointer instance
@@ -104,5 +104,14 @@ namespace hekira
             }
         }
 
+        public override void SetCursorRay(Transform ray)
+        {
+
+        }
+
+        public override void SetCursorStartDest(Vector3 start, Vector3 dest, Vector3 normal)
+        {
+
+        }
     }
 }

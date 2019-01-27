@@ -16,7 +16,7 @@ namespace hekira.Utilities
         /// <param name="direction">Direction.</param>
         /// <param name="radius">Radius.</param>
         public static Vector3 GetIntersectionPointOnSphere (Vector3 startPoint, Vector3 direction, float radius){
-            Vector3 O = Vector3.zero;
+            Vector3 O = Camera.main.transform.position;
             Vector3 PO = O - startPoint;
             Vector3 A = startPoint + Vector3.Project(PO, direction);
             float AO = Vector3.Distance(A, O);
